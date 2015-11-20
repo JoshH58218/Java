@@ -3,6 +3,7 @@ package as.java.lesson.two;
 import java.util.Scanner;
 
 public class Bubble_sort {
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("How many number would you like to sort? ");
