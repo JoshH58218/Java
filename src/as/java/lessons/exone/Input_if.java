@@ -4,18 +4,17 @@ import java.util.Scanner;
 
 public class Input_if {
 	@SuppressWarnings("resource")
-	public static void main(String [] args){
+	public static void main(String[] args) {
 		Scanner keyboard = new Scanner(System.in);
-		
-		int a,b;
-		
+
+		int a, b;
+
 		System.out.print("input two numbers ");
 		a = keyboard.nextInt();
-		
-		b = keyboard.nextInt ();
-		
-		System.out.print(a + " + " + b +" = " + (a + b));
-	}
 
+		b = keyboard.nextInt();
+
+		System.out.print(a + " + " + b + " = " + (a + b));
+	}
 
 }

@@ -1,33 +1,28 @@
 package as.java.lessons.exone;
 
 public class Case {
-	public static void main(String args [] ) {
+	public static void main(String args[]) {
 		char grade = 'D';
-		
-	
-		
-		switch(grade)
-		{
-		case 'A' :
+
+		switch (grade) {
+		case 'A':
 			System.out.println("Excellent!");
 			break;
-		case 'B' :
+		case 'B':
 			System.out.println("Well done");
 			break;
-		case 'C' :
+		case 'C':
 			System.out.println("Not too bad");
 			break;
-		case 'D' :
+		case 'D':
 			System.out.println("You passed");
 			break;
-		case 'F' :
+		case 'F':
 			System.out.println("You failed");
 			break;
-		default :
+		default:
 			System.out.println("Invalid grade");
 		}
 		System.out.println("Your grade is " + grade);
-		}
 	}
-
-
+}
